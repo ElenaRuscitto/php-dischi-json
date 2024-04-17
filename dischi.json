@@ -1,44 +1,44 @@
 [
     {
-        "title": "New Jersey",
+        "title": "Livin' On A Prayer",
         "author": "Bon Jovi",
-        "year": 1988,
-        "poster": "https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg",
+        "year": 1986,
+        "poster": "https://m.media-amazon.com/images/I/71XuV2eez5L.__AC_SX300_SY300_QL70_ML2_.jpg",
         "genre": "Rock"
     },
     {
-        "title": "Live at Wembley 86",
+        "title": "I Want to Break Free",
         "author": "Queen",
-        "year": 1992,
-        "poster": "https://images-na.ssl-images-amazon.com/images/I/71g40mlbinL._SX355_.jpg",
+        "year": 1984,
+        "poster": "https://m.media-amazon.com/images/I/61WnkDvkqUL._AC_SL1048_.jpg",
         "genre": "Pop"
     },
     {
-        "title": "Ten\"s Summoner\"s Tales",
+        "title": "Englishman In New York",
         "author": "Sting",
-        "year": 1993,
-        "poster": "https://images-na.ssl-images-amazon.com/images/I/411BQR6BHRL.jpg",
+        "year": 1987,
+        "poster": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRkTXFREp9GzJ6PeRE9TPAg4_TzUVsQqzYPdZQI8mVP3XOGH_de",
         "genre": "Pop"
     },
     {
-        "title": "Steve Gadd band",
-        "author": "Steve Gadd Band",
-        "year": 2018,
-        "poster": "https://m.media-amazon.com/images/I/81UtLzBDoEL._SS500_.jpg",
-        "genre": "Jazz"
-    },
-    {
-        "title": "Brave new World",
-        "author": "Iron Maiden",
-        "year": 2000,
-        "poster": "https://upload.wikimedia.org/wikipedia/en/0/03/Iron_Maiden_-_Brave_New_World.jpg",
+        "title": "The Unforgiven II",
+        "author": "Metallica",
+        "year": 1997,
+        "poster": "https://m.media-amazon.com/images/I/71BhCTfXpgL._AC_UL480_FMwebp_QL65_.jpg",
         "genre": "Metal"
     },
     {
-        "title": "One more car, one more rider",
-        "author": "Eric Clapton",
-        "year": 2002,
-        "poster": "https://images-na.ssl-images-amazon.com/images/I/81MDAIdh78L._SY355_.jpg",
-        "genre": "Rock"
+        "title": "The Passenger",
+        "author": "Iggy Pop",
+        "year": 1977,
+        "poster": "https://m.media-amazon.com/images/I/61si5VJY1kL._AC_UL480_FMwebp_QL65_.jpg",
+        "genre": "Pop"
+    },
+    {
+        "title": "Comfortably numb",
+        "author": "Pink Floyd",
+        "year": 1979,
+        "poster": "https://m.media-amazon.com/images/I/71BaC3FxeBL._AC_UL480_FMwebp_QL65_.jpg",
+        "genre": "Rock progressivo"
     }
 ]
