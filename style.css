@@ -1,0 +1,8 @@
+body {
+  background-color: rgb(29, 45, 60);
+}
+
+.my-card {
+  background-color: rgb(17, 32, 48) !important;
+  height: 400px;
+}

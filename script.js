@@ -4,7 +4,8 @@ createApp ({
 
   data () {
     return {
-      apiUrl: 'server.php',
+      apiUrl: "server.php",
+      disk: []
     }
   },
 
@@ -13,6 +14,7 @@ createApp ({
       axios.get(this.apiUrl)
         .then(result => {
           console.log(result.data);
+          this.disk= result.data;
         })
     }
 
@@ -20,5 +22,5 @@ createApp ({
   mounted() {
     this.getApi();
   }
-  
+
 }).mount ('#app')
