@@ -10,7 +10,7 @@ createApp ({
         title: "",
         author: "",
         year: "",
-        poster: "https://upload.wikimedia.org/wikipedia/en/0/03/Iron_Maiden_-_Brave_New_World.jpg",
+        poster: "https://m.media-amazon.com/images/I/71ActLxkq3L._AC_UL480_FMwebp_QL65_.jpg",
         genre: ""
       }
     }
@@ -37,6 +37,11 @@ createApp ({
         .then(result =>{
           console.log(result.data);
           this.disk = result.data;
+          // resetto i campi input all'aggiunta del nuovo disco
+          this.newDisk.title = "";
+          this.newDisk.author = "";
+          this.newDisk.year = "";
+          this.newDisk.genre = "";
       })
     }
 

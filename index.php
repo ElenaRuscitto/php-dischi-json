@@ -74,7 +74,7 @@
           <button 
             @click.stop="addNewTask"
             type="button" 
-            class="btn btn-success btn-sm">Aggiungi</button>
+            class="btn btn-success btn-sm my-btn">Aggiungi</button>
         </div>
       </div>
 

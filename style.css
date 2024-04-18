@@ -10,3 +10,11 @@ body {
 .titolo {
   color: rgb(101, 159, 212);
 }
+
+.my-btn {
+  background-color: rgb(30, 232, 100) !important;
+}
+
+.my-btn:hover {
+  background-color: rgb(114, 244, 159) !important;
+}

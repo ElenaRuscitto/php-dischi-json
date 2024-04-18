@@ -10,7 +10,7 @@ $json_dischi = file_get_contents('dischi.json');
 $disk = json_decode($json_dischi, true);
 // var_dump($list);
 
-
+// aggiungo nuovi dischi
 if(isset($_POST['newDiskTitle'])) {
     $new_disk = [
       'title' => $_POST['newDiskTitle'],
