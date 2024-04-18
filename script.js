@@ -48,14 +48,22 @@ createApp ({
 
     // rimuovo disco
     removeDisk(index) {
-      const data = new FormData();
-      data.append('indexToDelete' , index);
 
-      axios.post(this.apiUrl, data)
-      .then(result =>{
-        console.log(result.data);
-        this.disk = result.data;
-      })
+      const diskDelete = this.disk[index]; 
+      if (confirm(`Sicuro di voler cancellare il disco ${diskDelete.title} ?`)) {
+
+
+        const data = new FormData();
+        data.append('indexToDelete' , index);
+  
+        axios.post(this.apiUrl, data)
+        .then(result =>{
+          console.log(result.data);
+          this.disk = result.data;
+        })
+      }
+
+    
 
     }
   },

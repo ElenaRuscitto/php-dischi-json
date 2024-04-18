@@ -28,11 +28,21 @@
                 
               </div>
            
-              <button 
-                @click.stop="removeDisk(index)"
-                class="btn btn-danger btn-sm my-btn mb-3">
-                 <i class="fa-solid fa-trash"></i>
-              </button>
+              <div class="d-flex">
+                <!-- cuoricino -->
+                <button
+                  @click.stop="removeDisk(index)"
+                  class="btn btn-danger btn-sm mb-3">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+                <!-- cestino -->
+                <button 
+                  @click.stop="removeDisk(index)"
+                  class="btn btn-danger btn-sm my-btn mb-3">
+                  <i class="fa-solid fa-trash"></i>
+                </button>
+
+              </div>
             </div>
           </div>
 
