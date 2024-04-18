@@ -71,7 +71,10 @@
         </div>
         
         <div class="d-flex justify-content-center align-items-center mb-5">
-          <button type="button" class="btn btn-success btn-sm">Aggiungi</button>
+          <button 
+            @click.stop="addNewTask"
+            type="button" 
+            class="btn btn-success btn-sm">Aggiungi</button>
         </div>
       </div>
 

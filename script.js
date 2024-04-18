@@ -10,7 +10,7 @@ createApp ({
         title: "",
         author: "",
         year: "",
-        poster: "https://m.media-amazon.com/images/I/61WnkDvkqUL._AC_SL1048_.jpg",
+        poster: "https://upload.wikimedia.org/wikipedia/en/0/03/Iron_Maiden_-_Brave_New_World.jpg",
         genre: ""
       }
     }
@@ -30,11 +30,13 @@ createApp ({
       data.append('newDiskTitle', this.newDisk.title);
       data.append('newDiskAuthor', this.newDisk.author);
       data.append('newDiskYear', this.newDisk.year);
+      data.append('newDiskPoster', this.newDisk.poster);
       data.append('newDiskGenre', this.newDisk.genre);
 
       axios.post(this.apiUrl, data)
-        then(result =>{
+        .then(result =>{
           console.log(result.data);
+          this.disk = result.data;
       })
     }
 
