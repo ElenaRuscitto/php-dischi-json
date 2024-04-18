@@ -24,6 +24,13 @@ if(isset($_POST['newDiskTitle'])) {
 }
 
 
+// rimuovo i dischi
+if(isset($_POST['indexToDelete'])) {
+  $indexToDelete = $_POST['indexToDelete'];
+  array_splice($disk, $indexToDelete,1);
+  file_put_contents('dischi.json', json_encode($disk));
+}
+
 // trasformo il file PHP come se fosse un file JSON
 header('Content-Type: application/json');
 

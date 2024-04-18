@@ -25,6 +25,7 @@ createApp ({
         })
     },
 
+    // aggiungo nuovo disco
     addNewTask () {
       const data = new FormData();
       data.append('newDiskTitle', this.newDisk.title);
@@ -43,8 +44,20 @@ createApp ({
           this.newDisk.year = "";
           this.newDisk.genre = "";
       })
-    }
+    },
 
+    // rimuovo disco
+    removeDisk(index) {
+      const data = new FormData();
+      data.append('indexToDelete' , index);
+
+      axios.post(this.apiUrl, data)
+      .then(result =>{
+        console.log(result.data);
+        this.disk = result.data;
+      })
+
+    }
   },
   mounted() {
     this.getApi();

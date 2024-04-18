@@ -25,8 +25,14 @@
                 <p class="card-text"> {{item.author}} </p>
                 <h5 class="card-title"> {{item.year}} </h5>
                 <p class="card-text text-white fw-lighter  "></small>{{item.genre}} </p>
-                <!-- <p class="card-text text-white"><small class="text-body-secondary text-white"> {{item.genre}} </small></p> -->
+                
               </div>
+           
+              <button 
+                @click.stop="removeDisk(index)"
+                class="btn btn-danger btn-sm my-btn mb-3">
+                 <i class="fa-solid fa-trash"></i>
+              </button>
             </div>
           </div>
 

@@ -4,7 +4,7 @@ body {
 
 .my-card {
   background-color: rgb(17, 32, 48) !important;
-  height: 400px;
+  /* height: 500px; */
 }
 
 .titolo {
@@ -12,9 +12,10 @@ body {
 }
 
 .my-btn {
-  background-color: rgb(30, 232, 100) !important;
+  background-color: rgb(29, 208, 93) !important;
+  border: none !important;
 }
 
 .my-btn:hover {
-  background-color: rgb(114, 244, 159) !important;
+  background-color: rgb(19, 137, 60) !important;
 }
