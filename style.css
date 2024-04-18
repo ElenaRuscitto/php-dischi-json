@@ -5,6 +5,7 @@ body {
 .my-card {
   background-color: rgb(17, 32, 48) !important;
   /* height: 500px; */
+  position: relative;
 }
 
 .titolo {
@@ -18,4 +19,12 @@ body {
 
 .my-btn:hover {
   background-color: rgb(19, 137, 60) !important;
+}
+
+.heart {
+  color: red;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }

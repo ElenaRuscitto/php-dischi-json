@@ -11,7 +11,8 @@ createApp ({
         author: "",
         year: "",
         poster: "https://m.media-amazon.com/images/I/71ActLxkq3L._AC_UL480_FMwebp_QL65_.jpg",
-        genre: ""
+        genre: "",
+        likes: ""
       }
     }
   },
@@ -20,7 +21,7 @@ createApp ({
     getApi() {
       axios.get(this.apiUrl)
         .then(result => {
-          console.log(result.data);
+          // console.log(result.data);
           this.disk= result.data;
         })
     },
@@ -63,9 +64,27 @@ createApp ({
         })
       }
 
+    },
+
+    // disco con likes
+    // likesDisk(index) {
+    //   const data = new FormData();
+    //   data.append('favoriteDisk', index);
+
+    //   axios.post(this.apiUrl, data)
+    //   .then(result =>{
+    //     console.log(result.data);
+    //     this.disk = result.data;
+    //   })
+    //   .catch(error => {
+    //     console.log(error);
+    //   })
     
 
-    }
+    // },
+
+
+
   },
   mounted() {
     this.getApi();

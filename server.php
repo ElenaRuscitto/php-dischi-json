@@ -31,6 +31,14 @@ if(isset($_POST['indexToDelete'])) {
   file_put_contents('dischi.json', json_encode($disk));
 }
 
+
+// like
+// if(isset($_POST['favoriteDisk'])) {
+//   $diskFavorite = $_POST['favoriteDisk'];
+//   $disk[$favoriteDisk]['likes'] = !$disk[$favoriteDisk]['likes'];
+//   file_put_contents('dischi.json', json_encode($disk));
+// }
+
 // trasformo il file PHP come se fosse un file JSON
 header('Content-Type: application/json');
 
