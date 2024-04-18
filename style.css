@@ -10,15 +10,33 @@ body {
 
 .titolo {
   color: rgb(101, 159, 212);
+
+}
+
+.titolo-bis {
+  color: rgb(29, 208, 93);
 }
 
 .my-btn {
   background-color: rgb(29, 208, 93) !important;
-  border: none !important;
+  cursor: pointer;
 }
 
-.my-btn:hover {
+.my-btn:hover,
+.my-btn-trash:hover {
   background-color: rgb(19, 137, 60) !important;
+}
+
+.my-btn-trash {
+  color: rgb(29, 208, 93) !important;
+  cursor: pointer;
+}
+
+.bordo {
+  border: 2px solid rgb(29, 208, 93);
+  padding: 0 7px;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .heart {

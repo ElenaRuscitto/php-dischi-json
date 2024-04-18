@@ -29,20 +29,27 @@
               </div>
 
               <!-- cestino -->
-              <button 
+              
+               <div class="bordo">
+                <i 
+                    @click.stop="removeDisk(index)"
+                    class="my-btn-trash fa-solid fa-trash"></i>
+               </div>
+             
+              <!-- <button 
                 @click.stop="removeDisk(index)"
                 class="btn btn-danger btn-sm my-btn mb-3">
                 <i class="fa-solid fa-trash"></i>
-              </button>
+              </button> -->
            
                 <!-- cuoricino -->
               <div class="heart d-flex">
                 
-               
-              <i 
+              <!-- <i 
               :class="{'likes' : item.likes}"
               @click.stop="likesDisk(index)"
-              class="fa-regular fa-heart"></i>
+              class="fa-regular fa-heart"></i> -->
+              <i class="fa-regular fa-heart"></i>
                
             
 
@@ -52,7 +59,7 @@
 
         </div>
 
-        <h2 class="text-center titolo">Aggiungi un nuovo disco</h2>
+        <h2 class="text-center titolo-bis">Aggiungi un nuovo disco</h2>
         <div class="text-white d-flex justify-content-center m-5">
           
 
