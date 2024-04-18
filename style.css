@@ -6,3 +6,7 @@ body {
   background-color: rgb(17, 32, 48) !important;
   height: 400px;
 }
+
+.titolo {
+  color: rgb(101, 159, 212);
+}
