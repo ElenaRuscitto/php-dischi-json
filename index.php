@@ -36,11 +36,6 @@
                     class="my-btn-trash fa-solid fa-trash"></i>
                </div>
              
-              <!-- <button 
-                @click.stop="removeDisk(index)"
-                class="btn btn-danger btn-sm my-btn mb-3">
-                <i class="fa-solid fa-trash"></i>
-              </button> -->
            
                 <!-- cuoricino -->
               <div class="heart d-flex">

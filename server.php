@@ -18,6 +18,7 @@ if(isset($_POST['newDiskTitle'])) {
       'year' => $_POST['newDiskYear'],
       'poster' => $_POST['newDiskPoster'],
       'genre' => $_POST['newDiskGenre'],
+      'likes' => $_POST['newDiskFavorite'],
     ];
     $disk[] = $new_disk;
     file_put_contents('dischi.json', json_encode($disk));

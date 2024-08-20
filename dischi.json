@@ -1,1 +1,44 @@
-[{"title":"Livin' On A Prayer","author":"Bon Jovi","year":1986,"poster":"https:\/\/m.media-amazon.com\/images\/I\/71XuV2eez5L.__AC_SX300_SY300_QL70_ML2_.jpg","genre":"Rock"},{"title":"I Want to Break Free","author":"Queen","year":1984,"poster":"https:\/\/m.media-amazon.com\/images\/I\/61WnkDvkqUL._AC_SL1048_.jpg","genre":"Pop"},{"title":"Englishman In New York","author":"Sting","year":1987,"poster":"https:\/\/encrypted-tbn2.gstatic.com\/images?q=tbn:ANd9GcRkTXFREp9GzJ6PeRE9TPAg4_TzUVsQqzYPdZQI8mVP3XOGH_de","genre":"Pop"},{"title":"The Unforgiven II","author":"Metallica","year":1997,"poster":"https:\/\/m.media-amazon.com\/images\/I\/71BhCTfXpgL._AC_UL480_FMwebp_QL65_.jpg","genre":"Metal"},{"title":"The Passenger","author":"Iggy Pop","year":1977,"poster":"https:\/\/m.media-amazon.com\/images\/I\/61si5VJY1kL._AC_UL480_FMwebp_QL65_.jpg","genre":"Pop"},{"title":"Comfortably numb","author":"Pink Floyd","year":1979,"poster":"https:\/\/m.media-amazon.com\/images\/I\/71BaC3FxeBL._AC_UL480_FMwebp_QL65_.jpg","genre":"Rock progressivo"},{"title":"fffff","author":"gggg","year":"66","poster":"https:\/\/m.media-amazon.com\/images\/I\/61WnkDvkqUL._AC_SL1048_.jpg","genre":"g"},{"title":"bf","author":"bvfbvsd","year":"65","poster":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/0\/03\/Iron_Maiden_-_Brave_New_World.jpg","genre":"bc"},{"title":"\u00f2o.bj k","author":".jkn.<","year":"hbj.","poster":"https:\/\/m.media-amazon.com\/images\/I\/71ActLxkq3L._AC_UL480_FMwebp_QL65_.jpg","genre":"lhb"}]
+[
+  {
+    "title": "Livin' On A Prayer",
+    "author": "Bon Jovi",
+    "year": 1986,
+    "poster": "https://m.media-amazon.com/images/I/71XuV2eez5L.__AC_SX300_SY300_QL70_ML2_.jpg",
+    "genre": "Rock"
+  },
+  {
+    "title": "I Want to Break Free",
+    "author": "Queen",
+    "year": 1984,
+    "poster": "https://m.media-amazon.com/images/I/61WnkDvkqUL._AC_SL1048_.jpg",
+    "genre": "Pop"
+  },
+  {
+    "title": "Englishman In New York",
+    "author": "Sting",
+    "year": 1987,
+    "poster": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRkTXFREp9GzJ6PeRE9TPAg4_TzUVsQqzYPdZQI8mVP3XOGH_de",
+    "genre": "Pop"
+  },
+  {
+    "title": "The Unforgiven II",
+    "author": "Metallica",
+    "year": 1997,
+    "poster": "https://m.media-amazon.com/images/I/71BhCTfXpgL._AC_UL480_FMwebp_QL65_.jpg",
+    "genre": "Metal"
+  },
+  {
+    "title": "The Passenger",
+    "author": "Iggy Pop",
+    "year": 1977,
+    "poster": "https://m.media-amazon.com/images/I/61si5VJY1kL._AC_UL480_FMwebp_QL65_.jpg",
+    "genre": "Pop"
+  },
+  {
+    "title": "Comfortably numb",
+    "author": "Pink Floyd",
+    "year": 1979,
+    "poster": "https://m.media-amazon.com/images/I/71BaC3FxeBL._AC_UL480_FMwebp_QL65_.jpg",
+    "genre": "Rock progressivo"
+  }
+]
