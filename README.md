@@ -1,10 +1,11 @@
 ## Php Dischi Musicali - Json
 
 
-## DESCRIZIONE
+## Descrizione:
 Dobbiamo creare una web-app che permetta di leggere una lista di dischi presente nel nostro server.
 
-## STACK
+## Stack:
 Html, CSS, VueJS (importato tramite CDN), axios, PHP
 
-## FUNZIONALITA'
+## Funzionalità:
+- Aggiunta ed eliminazione di un disco musicale
